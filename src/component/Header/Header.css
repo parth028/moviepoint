@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #007399;
+  padding: 15px;
+  box-shadow: 0px 2px 4px black;
+  color: #0052cc;
+  z-index: 100;
+  border-radius: 2px;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #e6f2ff;
+}
+.n_two {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  color: red;
+}
+.button {
+  align-items: flex-end;
+  justify-content: space-around;
+  text-decoration: none;
+  /* padding-right: 50px;
+  padding-left: 1000px;*/
+}
+
+@media screen and (max-width: 600px) {
+  .name {
+    font-size: 30px;
+  }
+  .button {
+    margin-right: 10px;
+  }
+}

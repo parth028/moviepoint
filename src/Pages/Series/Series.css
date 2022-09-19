@@ -1,0 +1,13 @@
+.Series {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 4%;
+  padding-top: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.genres {
+  padding-bottom: 1%;
+  padding-top: 15px;
+}

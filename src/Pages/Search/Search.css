@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 6% 0%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 100px;
+}
+.searcharea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #000a1a;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 90px;
+}
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
